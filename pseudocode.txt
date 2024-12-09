@@ -1,0 +1,23 @@
+Make an Array and create individual values from A-Z
+
+Start
+
+Prompt the user to input a message.
+
+shift calculation:
+    Find the array position of each corresponding letter that was input.
+    Find the amount of each letter that was input.
+    Mutiply the amount of each letter input with their corresponding array value position.
+    Add the sums, then use 'shift amount = (sum of letters – 1) % 25 + 1' to keep the shift
+    within the array.
+
+Hash string:
+    Find the amount of each letter from the original input.
+    Make an algorithm that takes the array and asigns a number to each value
+    and make those asigned numbers equivilant to the amount in the input.
+
+Cipher:
+    Using the shift number that was produced, the original input, and the array.
+    Encript the original input by replacing the letters from the original input with letters
+    from the array that are in a position 'shift number' away from the original.
+    also use .upper to capitalize the output.
